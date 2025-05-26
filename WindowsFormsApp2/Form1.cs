@@ -182,7 +182,7 @@ namespace WindowsFormsApp1
         {
             var lines = txtInput.Lines.Where(l => !string.IsNullOrWhiteSpace(l)).ToArray();
             int n = lines.Length;
-            if (n < 2)
+            if (n < 2 && n!=0)
             {
                 MessageBox.Show("At least two nodes are required.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
