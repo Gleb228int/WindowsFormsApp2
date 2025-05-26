@@ -51,7 +51,7 @@ namespace WindowsFormsApp1
             lblInstructions = new Label
             {
                 Text = "Enter weight matrix (symmetric, complete) – max size 25×25\r\n" +
-                       "Values separated by commas, rows by newline",
+                       "Values separated by spaces, rows by newline",
                 Location = new Point(10, 10),
                 Size = new Size(300, 40)
             };
